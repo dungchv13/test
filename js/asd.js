@@ -13,8 +13,8 @@ function ketqua(){
             let x= -b/(2*a);
             document.getElementById("output").innerHTML="phuong trinh co nghiem x="+x;
         }else{
-            let x1=(b+Math.sqrt(delta))/(2*a);
-            let x2=(b-Math.sqrt(delta))/(2*a);
+            let x1=-(b+Math.sqrt(delta))/(2*a);
+            let x2=-(b-Math.sqrt(delta))/(2*a);
             document.getElementById("output").innerText="phuong trinh co 2 nghiem lan luot la:"+x1+" va "+x2;
         }
     }
